@@ -1,6 +1,6 @@
 {
   "name": "@enrise/bemclassnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react utility function that generated prefixed classnames",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -41,5 +41,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "dist/*"
+  ]
 }
