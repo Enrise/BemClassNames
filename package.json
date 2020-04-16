@@ -1,0 +1,41 @@
+{
+  "name": "bem-class-names",
+  "version": "1.0.0",
+  "description": "A react utility function that generated prefixed classnames",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enrise/BemClassNames.git"
+  },
+  "keywords": [
+    "react",
+    "classnames",
+    "bem"
+  ],
+  "author": "Henk-Jan van Voorthuijsen @ Enrise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enrise/BemClassNames/issues"
+  },
+  "homepage": "https://github.com/Enrise/BemClassNames#readme",
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.28.0",
+    "@typescript-eslint/parser": "^2.28.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4",
+    "prettier-eslint": "^9.0.1",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
