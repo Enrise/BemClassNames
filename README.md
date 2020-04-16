@@ -6,13 +6,17 @@ An utility function for writing simple prefixed classnames.
 
 It is just a wrapper around [classnames](https://www.npmjs.com/package/classnames) so you can use every feature from that library.
 
+## How to install
+
+`npm install @enrise/bemclassnames`
+
 ## How to use
 
 The following component:
 
 ```tsx
 import React from "react";
-import bemClassNames from "bem-class-names";
+import bemClassNames from "@enrise/bemclassnames";
 
 const cn = bemClassNames("Main");
 
